@@ -1,0 +1,21 @@
+.task.completed {
+    background-color: rgb(0, 38, 255);
+    text-decoration: line-through;
+  }
+
+  .todo-list {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .task {
+    background-color: rgb(0, 204, 255);
+    width: 10%;
+    text-align: left;
+    margin: 4px 0;
+    padding: 20px 8px;
+    cursor: pointer;
+  }
